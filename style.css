@@ -185,3 +185,59 @@ header nav ul li:last-of-type a {
     justify-content: space-between;
     align-items: center;
 }
+.help{
+    background: #000000;
+    padding-top: 113px;
+    padding-bottom:108px;
+}
+.help-container{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+.help-container h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.help-container h3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-top: 15px;
+    margin-bottom: 22px;
+}
+
+.button{
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding:10px;
+}
+.button:before{
+    content: "";
+    display: inline-block;
+    background-image: url("images/Vector.svg");
+    position: relative;
+    width: 32px;
+    height: 32px;
+    right: 5px;
+    top: 10px;
+
+}
