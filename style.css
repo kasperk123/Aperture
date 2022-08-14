@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+    background-color: #181818;
+    padding: 24px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+header nav ul li {
+    margin-left: 32px;
+}
+
+header nav ul a {
+
+    font: 15px/20px 'Poppins';
+    font-style: normal;
+
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+header nav ul li:first-of-type {
+    margin-right: 24px;
+}
+
+header nav ul li:first-of-type a {
+    font-size: 13px;
+}
+
+header nav ul li:last-of-type a {
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 11px 20px;
+    font: 16px/20px 'Poppins';
+    letter-spacing: 0.4px;
+    color: #000000;
+}
+
+.main-banner {
+    box-sizing: border-box;
+    background-image: url("images/IMAGE.jpg");
+    background-size: cover;
+    padding-top: 466px;
+    padding-bottom: 71px;
+    height: 100vh;
+    position: relative;
+
+}
+
+.main-container {
+    max-width: 580px;
+    margin: auto;
+    text-align: center;
+}
+
+.main-title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+
+.main-title-1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.about {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-top: 18px;
+}
+.fixed-information li{
+    margin-left: 16px;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+.fixed-information li:before{
+    content:"";
+    display: inline-block;
+    background-image: url("images/clock(1).svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 6px;
+}
+.fixed-information li:nth-child(2):before{
+
+    background-image: url("images/circle(2).svg");
+
+}
+.fixed-information li:nth-child(3):before{
+    background-image: url("images/iso(3).svg");
+    width: 32px;
+}
+.fixed-information li:last-of-type:before{
+    background-image: url("images/Fill-1.svg");
+    width: 10px;
+}
+
+.fixed-information{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
