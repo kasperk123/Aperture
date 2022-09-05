@@ -31,10 +31,8 @@ header nav ul li {
 }
 
 header nav ul a {
-
     font: 15px/20px 'Poppins';
     font-style: normal;
-
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -58,18 +56,21 @@ header nav ul li:last-of-type a {
 
 .main-banner {
     box-sizing: border-box;
-    background-image: url("images/IMAGE.jpg");
+    background-image: url("../images/IMAGE.jpg");
     background-size: cover;
-    padding-top: 466px;
+
     padding-bottom: 71px;
     height: 100vh;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 
 }
 
 .main-container {
     max-width: 580px;
-    margin: auto;
+
     text-align: center;
 }
 
@@ -106,96 +107,65 @@ header nav ul li:last-of-type a {
     color: #C0C0C0;
     margin-top: 18px;
 }
-.fixed-information li{
+
+.fixed-information li {
     margin-left: 16px;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
     color: #FFFFFF;
 }
-.fixed-information li:before{
-    content:"";
+
+.fixed-information li:before {
+    content: "";
     display: inline-block;
-    background-image: url("images/clock(1).svg");
+    background-image: url("../images/clock(1).svg");
     width: 16px;
     height: 16px;
     margin-right: 6px;
     position: relative;
     top: 6px;
 }
-.fixed-information li:nth-child(2):before{
 
-    background-image: url("images/circle(2).svg");
+.fixed-information li:nth-child(2):before {
+
+    background-image: url("../images/circle(2).svg");
 
 }
-.fixed-information li:nth-child(3):before{
-    background-image: url("images/iso(3).svg");
+
+.fixed-information li:nth-child(3):before {
+    background-image: url("../images/iso(3).svg");
     width: 32px;
 }
-.fixed-information li:last-of-type:before{
-    background-image: url("images/Fill-1.svg");
+
+.fixed-information li:last-of-type:before {
+    background-image: url("../images/Fill-1.svg");
     width: 10px;
 }
 
-.fixed-information{
+.fixed-information {
     display: flex;
     list-style: none;
     position: absolute;
     bottom: 40px;
     right: 40px;
 }
-.companies{
+
+.companies {
     background: #000000;
     padding-top: 113px;
     padding-bottom: 140px;
-
-
 }
-.companies-container{
+
+.companies-container {
     margin: auto;
     text-align: center;
     max-width: 441px;
 }
-.companies-container h2{
-    font-family: 'Poppins',sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 42px;
-    text-align: center;
-    color: #FFFFFF;
-}
-.companies-container h3{
-    font-family: 'Poppins',sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
-    text-align: center;
-    color: #C0C0C0;
-    margin-top: 15px;
-}
-.companies-logo{
-    padding-top: 82px;
-    margin: auto;
-    max-width: 1200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.help{
-    background: #000000;
-    padding-top: 113px;
-    padding-bottom:108px;
-}
-.help-container{
-    max-width: 600px;
-    margin: auto;
-    text-align: center;
-}
-.help-container h2{
+
+.companies-container h2 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -204,8 +174,51 @@ header nav ul li:last-of-type a {
     text-align: center;
     color: #FFFFFF;
 }
-.help-container h3{
-    font-family: 'Poppins',sans-serif;
+
+.companies-container h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-top: 15px;
+}
+
+.companies-logo {
+    padding-top: 82px;
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.help {
+    background: #000000;
+    padding-top: 113px;
+    padding-bottom: 108px;
+}
+
+.help-container {
+
+    margin: auto;
+    text-align: center;
+}
+
+.help-container h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.help-container h3 {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -216,9 +229,9 @@ header nav ul li:last-of-type a {
     margin-bottom: 22px;
 }
 
-.button{
+.button {
     text-decoration: none;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -228,16 +241,83 @@ header nav ul li:last-of-type a {
     color: #000000;
     background: #FFFFFF;
     border-radius: 14px;
-    padding:10px;
+    padding: 10px;
 }
-.button:before{
+
+.button:before {
     content: "";
-    display: inline-block;
-    background-image: url("images/Vector.svg");
+    display: inline-flex;
+    background-image: url("../images/Vector.svg");
     position: relative;
     width: 32px;
     height: 32px;
     right: 5px;
     top: 10px;
+}
+
+.portfolio {
+    background-image: url("../images/montain.jpg");
+    min-height: 600px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.portfolio .sub-container {
+    max-width: 290px;
+    margin-right: 62px;
+}
+
+.sub-container h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.sub-container p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+.owl-carousel {
+    text-align: center;
+    margin: auto;
+
+}
+
+.owl-carousel .item {
+    max-width: 128px;
+    margin: auto;
+}
+
+.owl-dots .owl-dot span {
+    background: gray;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.owl-dots .active span {
+    background: white;
+}
+
+.owl-stage {
+    display: flex;
+    align-items: center;
 
 }
